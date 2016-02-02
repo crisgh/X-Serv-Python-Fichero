@@ -14,6 +14,4 @@ fichero.close()
 fichero = open("/etc/passwd", "r")
 num_lineas = fichero.readlines()
 print "Hay", len(num_lineas), "usuarios"
-
-
 fichero.close()
